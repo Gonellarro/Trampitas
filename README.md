@@ -1,0 +1,2 @@
+# Trampitas
+Trampitas para Wordle
