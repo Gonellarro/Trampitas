@@ -1,0 +1,130 @@
+h1 {
+ text-align: center;
+}
+
+.main {
+  float: left;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
+}
+
+#game-board {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#text-area {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+textarea {
+	font-size:20px;
+	width:100%;
+}
+
+#keyboard-cont {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#keyboard-cont div {
+  margin: 0.5rem 0.5rem;
+  display: flex;
+}
+
+
+
+.second-row {
+  margin: 0.5rem 0;
+}
+
+.keyboard-button {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  margin: 0 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+
+
+.letter-box {
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 3rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+
+.letter-row {
+  display: flex;
+}
+
+.box {
+  color: #fff;
+  padding: 20px;
+  display: none;
+  margin-top: 20px;
+}
+
+.yellow-box{
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+    color:white;
+    background-color: rgb(201, 180, 88);
+}
+.grey-box{
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+    color:white;
+    background-color: rgb(120, 124, 126);
+}
+.green-box{
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+    color:white;
+    background-color:rgb(106, 170, 100);
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trampitas Wordle</title>
+	<link rel="stylesheet" href="style.css">
+	
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+</head>
+<body>
+
+    <div class="main">
+		<h1>Trampitas</h1>
+		<hr>
+		<div id="game-board">
+		</div>
+		<div id="keyboard-cont">
+			<div>
+				<button type="button" class="btn btn-outline-secondary">q</button>
+				<button type="button" class="btn btn-outline-secondary">w</button>
+				<button type="button" class="btn btn-outline-secondary">e</button>
+				<button type="button" class="btn btn-outline-secondary">r</button>
+				<button type="button" class="btn btn-outline-secondary">t</button>
+				<button type="button" class="btn btn-outline-secondary">y</button>
+				<button type="button" class="btn btn-outline-secondary">u</button>
+				<button type="button" class="btn btn-outline-secondary">i</button>
+				<button type="button" class="btn btn-outline-secondary">o</button>
+				<button type="button" class="btn btn-outline-secondary">p</button>
+			</div>
+			<div>
+				<button type="button" class="btn btn-outline-secondary">a</button>
+				<button type="button" class="btn btn-outline-secondary">s</button>
+				<button type="button" class="btn btn-outline-secondary">d</button>
+				<button type="button" class="btn btn-outline-secondary">f</button>
+				<button type="button" class="btn btn-outline-secondary">g</button>
+				<button type="button" class="btn btn-outline-secondary">h</button>
+				<button type="button" class="btn btn-outline-secondary">j</button>
+				<button type="button" class="btn btn-outline-secondary">k</button>
+				<button type="button" class="btn btn-outline-secondary">l</button>
+				<button type="button" class="btn btn-outline-secondary">ñ</button>
+			</div>
+			<div>
+				<button type="button" class="btn btn-outline-secondary">Enter</button>				
+				<button type="button" class="btn btn-outline-secondary">z</button>
+				<button type="button" class="btn btn-outline-secondary">x</button>
+				<button type="button" class="btn btn-outline-secondary">c</button>
+				<button type="button" class="btn btn-outline-secondary">v</button>
+				<button type="button" class="btn btn-outline-secondary">b</button>
+				<button type="button" class="btn btn-outline-secondary">n</button>
+				<button type="button" class="btn btn-outline-secondary">m</button>
+				<button type="button" class="btn btn-outline-secondary">Del</button>
+			</div>
+		</div>	
+		<div id="text-area">
+			<textarea disabled cols="40" rows="10" width=100% id="texte"></textarea>
+		</div>
+	</div>
+	
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+
+<script src="script.js" type="module"></script>	
+</body>
+</html>
