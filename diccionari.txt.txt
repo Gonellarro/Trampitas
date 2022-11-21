@@ -1,5 +1,3 @@
-GusiX
-Todos
 ababa
 abacá
 ábaco
@@ -555,6 +553,7 @@ bario
 barón
 barra
 barro
+barre
 barza
 basal
 basar
