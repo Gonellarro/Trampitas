@@ -96,7 +96,7 @@ textarea {
   align-items: center;
   text-transform: uppercase;
     color:white;
-    background-color: rgb(201, 180, 88);
+    background-color: rgb(228, 168, 29);
 }
 .grey-box{
   border: 2px solid gray;
@@ -111,7 +111,7 @@ textarea {
   align-items: center;
   text-transform: uppercase;
     color:white;
-    background-color: rgb(120, 124, 126);
+    background-color: rgb(117, 117, 117);
 }
 .green-box{
   border: 2px solid gray;
@@ -126,5 +126,5 @@ textarea {
   align-items: center;
   text-transform: uppercase;
     color:white;
-    background-color:rgb(106, 170, 100);
+    background-color:rgb(67, 160, 71);
 }

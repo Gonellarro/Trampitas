@@ -6,7 +6,7 @@ const nextColor={
 
 let currentGuess = [];
 let nextLetter = 0;
-const NUMBER_OF_GUESSES = 5;
+const NUMBER_OF_GUESSES = 6;
 let intents = 0;
 let linies = [];
 	
