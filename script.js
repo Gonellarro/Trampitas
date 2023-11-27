@@ -9,6 +9,7 @@ let nextLetter = 0;
 const NUMBER_OF_GUESSES = 6;
 let intents = 0;
 let linies = [];
+let diccionari = "diccionari_cast.txt";
 	
 
 
@@ -71,7 +72,7 @@ async function initBoard() {
 async function carregaDiccionari(){	
 	console.log("Carrega dicc");
 
-	let url = "/diccionari.txt";
+	let url = "/" + diccionari;
 	let response = await fetch(url);
 	const result = await response.text();
 	//console.log(result);
