@@ -6,21 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trampitas Wordle</title>
 	<link rel="stylesheet" href="style.css">
-	
-
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- Bootstrap Font Icon CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
-	<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
-	
 </head>
 <body>
-
     <div class="main">
-		<div>
-			<h2>TRAMPITAS </h2>
-		</div>
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-sm">
+					<i class="bi bi-list text-secondary" style="font-size: 2rem;"></i>
+				</div>
+				<div class="col-sm">
+					<h2>TRAMPITAS</h2>
+				</div>
+				<div class="col-sm">
+					<i class="bi bi-book text-secondary" style="font-size: 2rem;"></i>				
+				</div>
+			</div>	
+		</div>		
 		<hr>
 		<div id="game-board">
 		</div>
@@ -58,7 +62,7 @@
 				<button type="button" class="btn btn-outline-secondary">B</button>
 				<button type="button" class="btn btn-outline-secondary">N</button>
 				<button type="button" class="btn btn-outline-secondary">M</button>
-				<button type="button" class="btn btn-outline-secondary"><i class="bi bi-backspace"></i></button>
+				<button type="button" class="btn btn-outline-secondary">Del</button>
 			</div>
 		</div>	
 		<div id="text-area">
