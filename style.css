@@ -84,11 +84,11 @@ textarea {
 }
 
 .yellow-box{
-  border: 2px solid gray;
+  border: 2px solid rgb(228, 168, 29);
   border-radius: 3px;
   margin: 2px;
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
   height: 3rem;
   width: 3rem;
   display: flex;
@@ -102,10 +102,10 @@ textarea {
   border: 2px solid gray;
   border-radius: 3px;
   margin: 2px;
-  font-size: 2.5rem;
-  font-weight: 700;
-  height: 4rem;
-  width: 4rem;
+  font-size: 2rem;
+  font-weight: 500;
+  height: 3rem;
+  width: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,11 +114,11 @@ textarea {
     background-color: rgb(117, 117, 117);
 }
 .green-box{
-  border: 2px solid gray;
+  border: 2px solid rgb(67, 160, 71);
   border-radius: 3px;
   margin: 2px;
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
   height: 3rem;
   width: 3rem;
   display: flex;
